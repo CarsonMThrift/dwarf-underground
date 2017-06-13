@@ -2,13 +2,12 @@ import React, { Component } from 'react';
 import './App.css';
 
 import Header from './Header'
-import MainBody from './MainBody'
+import Article from './Article'
 import Advert from './Advert'
-import AuthorInfo from './AuthorInfo'
-import ArticleTitle from './ArticleTitle'
 import OtherArts from './OtherArts'
 
 class App extends Component {
+
   render() {
     return (
       <div className="App">
@@ -17,15 +16,12 @@ class App extends Component {
 
         <main className="expanded row">
 
-          <ArticleTitle />
-
-          <AuthorInfo />
-
-          <MainBody />
+          <Article />
 
           <Advert />
 
           <OtherArts />
+
         </main>
 
         <footer className="expanded row">
