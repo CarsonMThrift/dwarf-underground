@@ -4,16 +4,26 @@ import './App.css';
 import Header from './Header'
 import MainBody from './MainBody'
 import Advert from './Advert'
+import AuthorInfo from './AuthorInfo'
+import ArticleTitle from './ArticleTitle'
+
+
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+        
         <Header />
 
         <main className="expanded row">
+
+          <ArticleTitle />
+
+          <AuthorInfo />
+
           <MainBody />
-          
+
           <Advert />
 
           <div className="small-12 columns other-articles">
